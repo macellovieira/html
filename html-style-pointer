@@ -1,0 +1,1 @@
+<a onclick="funcao(); return false;" style="cursor: pointer;"> TEXTO </a>
