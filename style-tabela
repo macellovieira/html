@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>How to fix height of table tr?</title>
+      
     <style>
         table {
             margin-left: auto;
@@ -17,3 +26,41 @@
             background-color: green;
         }
     </style>
+
+</head>
+
+<body>
+  
+<table>
+  
+<!-- row with fixed height-->
+      <tr height="300px">
+        <td>Height of this row remains same on varying screen-size</td>
+        <td>Geeks for Geeks</td>
+        <td>
+            Geeks for Geeks is a Computer Science
+            Portal created with the goal of
+            providing well written, well thought
+            and well-explained solutions for
+            selected questions.
+        </td>
+      </tr>
+  
+<!-- row without fixed height-->
+      <tr>
+        <td>Height of this row changes on varying screen-size</td>
+        <td>Geeks for Geeks</td>
+        <td>
+            Geeks for Geeks is a Computer Science
+            Portal created with the goal of
+            providing well written, well thought
+            and well-explained solutions for
+            selected questions.
+        </td>
+      </tr>
+
+</table>
+  
+</body>
+
+</html>
