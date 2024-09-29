@@ -1,0 +1,10 @@
+<p style="background-color: lightblue;">
+
+<style>
+        body {
+           background-color: lightblue;
+        }
+        .highlight-box {
+           background-color: yellow;
+        }
+</style>
